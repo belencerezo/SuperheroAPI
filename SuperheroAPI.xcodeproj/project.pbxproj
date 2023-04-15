@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0AF53A29001D48004C0566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF53929001D48004C0566 /* AppDelegate.swift */; };
+		ED0AF53C29001D48004C0566 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF53B29001D48004C0566 /* SceneDelegate.swift */; };
+		ED0AF54129001D48004C0566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0AF53F29001D48004C0566 /* Main.storyboard */; };
+		ED0AF54329001D49004C0566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0AF54229001D49004C0566 /* Assets.xcassets */; };
+		ED0AF54629001D49004C0566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0AF54429001D49004C0566 /* LaunchScreen.storyboard */; };
+		ED0AF55129001E08004C0566 /* SuperheroListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55029001E08004C0566 /* SuperheroListProtocol.swift */; };
+		ED0AF55529001E54004C0566 /* SuperheroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55429001E54004C0566 /* SuperheroListViewModel.swift */; };
+		ED0AF55929001E88004C0566 /* SuperheroListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55729001E88004C0566 /* SuperheroListTableViewCell.swift */; };
+		ED0AF55A29001E88004C0566 /* SuperheroListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0AF55829001E88004C0566 /* SuperheroListTableViewCell.xib */; };
+		ED0AF55C29002082004C0566 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55B29002082004C0566 /* Superhero.swift */; };
+		ED0AF55E290020AE004C0566 /* Biography.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55D290020AE004C0566 /* Biography.swift */; };
+		ED0AF560290020B9004C0566 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF55F290020B9004C0566 /* Image.swift */; };
+		ED0AF564290024D4004C0566 /* SuperheroListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF563290024D4004C0566 /* SuperheroListTableViewController.swift */; };
+		ED0AF56629002569004C0566 /* SuperheroNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF56529002569004C0566 /* SuperheroNetworkProtocol.swift */; };
+		ED0AF5682900257F004C0566 /* SuperheroNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AF5672900257F004C0566 /* SuperheroNetwork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0AF53629001D48004C0566 /* SuperheroAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperheroAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0AF53929001D48004C0566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0AF53B29001D48004C0566 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED0AF54029001D48004C0566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0AF54229001D49004C0566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0AF54529001D49004C0566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0AF54729001D49004C0566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0AF55029001E08004C0566 /* SuperheroListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroListProtocol.swift; sourceTree = "<group>"; };
+		ED0AF55429001E54004C0566 /* SuperheroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroListViewModel.swift; sourceTree = "<group>"; };
+		ED0AF55729001E88004C0566 /* SuperheroListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroListTableViewCell.swift; sourceTree = "<group>"; };
+		ED0AF55829001E88004C0566 /* SuperheroListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperheroListTableViewCell.xib; sourceTree = "<group>"; };
+		ED0AF55B29002082004C0566 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		ED0AF55D290020AE004C0566 /* Biography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biography.swift; sourceTree = "<group>"; };
+		ED0AF55F290020B9004C0566 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		ED0AF563290024D4004C0566 /* SuperheroListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroListTableViewController.swift; sourceTree = "<group>"; };
+		ED0AF56529002569004C0566 /* SuperheroNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroNetworkProtocol.swift; sourceTree = "<group>"; };
+		ED0AF5672900257F004C0566 /* SuperheroNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroNetwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0AF53329001D48004C0566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0AF52D29001D48004C0566 = {
+			isa = PBXGroup;
+			children = (
+				ED0AF53829001D48004C0566 /* SuperheroAPI */,
+				ED0AF53729001D48004C0566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0AF53729001D48004C0566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF53629001D48004C0566 /* SuperheroAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0AF53829001D48004C0566 /* SuperheroAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF54F29001D68004C0566 /* View */,
+				ED0AF54E29001D60004C0566 /* Model */,
+				ED0AF54D29001D58004C0566 /* Network */,
+				ED0AF53929001D48004C0566 /* AppDelegate.swift */,
+				ED0AF53B29001D48004C0566 /* SceneDelegate.swift */,
+				ED0AF53F29001D48004C0566 /* Main.storyboard */,
+				ED0AF54229001D49004C0566 /* Assets.xcassets */,
+				ED0AF54429001D49004C0566 /* LaunchScreen.storyboard */,
+				ED0AF54729001D49004C0566 /* Info.plist */,
+			);
+			path = SuperheroAPI;
+			sourceTree = "<group>";
+		};
+		ED0AF54D29001D58004C0566 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF56529002569004C0566 /* SuperheroNetworkProtocol.swift */,
+				ED0AF5672900257F004C0566 /* SuperheroNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ED0AF54E29001D60004C0566 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF55B29002082004C0566 /* Superhero.swift */,
+				ED0AF55D290020AE004C0566 /* Biography.swift */,
+				ED0AF55F290020B9004C0566 /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED0AF54F29001D68004C0566 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF55629001E68004C0566 /* Cell */,
+				ED0AF55029001E08004C0566 /* SuperheroListProtocol.swift */,
+				ED0AF55429001E54004C0566 /* SuperheroListViewModel.swift */,
+				ED0AF563290024D4004C0566 /* SuperheroListTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED0AF55629001E68004C0566 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AF55729001E88004C0566 /* SuperheroListTableViewCell.swift */,
+				ED0AF55829001E88004C0566 /* SuperheroListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0AF53529001D48004C0566 /* SuperheroAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0AF54A29001D49004C0566 /* Build configuration list for PBXNativeTarget "SuperheroAPI" */;
+			buildPhases = (
+				ED0AF53229001D48004C0566 /* Sources */,
+				ED0AF53329001D48004C0566 /* Frameworks */,
+				ED0AF53429001D48004C0566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperheroAPI;
+			productName = SuperheroAPI;
+			productReference = ED0AF53629001D48004C0566 /* SuperheroAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0AF52E29001D48004C0566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ED0AF53529001D48004C0566 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ED0AF53129001D48004C0566 /* Build configuration list for PBXProject "SuperheroAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0AF52D29001D48004C0566;
+			productRefGroup = ED0AF53729001D48004C0566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0AF53529001D48004C0566 /* SuperheroAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0AF53429001D48004C0566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0AF54629001D49004C0566 /* LaunchScreen.storyboard in Resources */,
+				ED0AF54329001D49004C0566 /* Assets.xcassets in Resources */,
+				ED0AF54129001D48004C0566 /* Main.storyboard in Resources */,
+				ED0AF55A29001E88004C0566 /* SuperheroListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0AF53229001D48004C0566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0AF55529001E54004C0566 /* SuperheroListViewModel.swift in Sources */,
+				ED0AF560290020B9004C0566 /* Image.swift in Sources */,
+				ED0AF56629002569004C0566 /* SuperheroNetworkProtocol.swift in Sources */,
+				ED0AF55C29002082004C0566 /* Superhero.swift in Sources */,
+				ED0AF55929001E88004C0566 /* SuperheroListTableViewCell.swift in Sources */,
+				ED0AF55129001E08004C0566 /* SuperheroListProtocol.swift in Sources */,
+				ED0AF5682900257F004C0566 /* SuperheroNetwork.swift in Sources */,
+				ED0AF564290024D4004C0566 /* SuperheroListTableViewController.swift in Sources */,
+				ED0AF53A29001D48004C0566 /* AppDelegate.swift in Sources */,
+				ED0AF53C29001D48004C0566 /* SceneDelegate.swift in Sources */,
+				ED0AF55E290020AE004C0566 /* Biography.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED0AF53F29001D48004C0566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0AF54029001D48004C0566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0AF54429001D49004C0566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0AF54529001D49004C0566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0AF54829001D49004C0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0AF54929001D49004C0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0AF54B29001D49004C0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperheroAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerezo.SuperheroAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0AF54C29001D49004C0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperheroAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerezo.SuperheroAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0AF53129001D48004C0566 /* Build configuration list for PBXProject "SuperheroAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0AF54829001D49004C0566 /* Debug */,
+				ED0AF54929001D49004C0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0AF54A29001D49004C0566 /* Build configuration list for PBXNativeTarget "SuperheroAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0AF54B29001D49004C0566 /* Debug */,
+				ED0AF54C29001D49004C0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0AF52E29001D48004C0566 /* Project object */;
+}
